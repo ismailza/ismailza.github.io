@@ -1,0 +1,78 @@
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.card {
+  width: 420px;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px;
+  background: #fff;
+  padding: 0;
+  box-shadow: 3px 3px 20px rgb(16, 16, 16);
+}
+.dark-mode .card-container .card {
+  background-color: #0c0c0d;
+  box-shadow: 3px 3px 20px rgb(29, 29, 29);
+}
+.medium-card {
+  height: 360px;
+}
+.large-card {
+  height: 396px;
+}
+.card:hover {
+  box-shadow: 0px 30px 30px rgba(0,0,0,0.5);
+}
+.card .img-box {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden;
+}
+.card .img-box img{
+  margin: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+}
+.card:hover .img-box img {
+  opacity: 0.8;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.5);
+}
+.card .box-content {
+  margin: 0;
+  padding: 0;
+}
+.card .box-content h6 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #009688;
+  font-size: 20px;
+  font-family: "Maven Pro", sans-serif;
+}
+.card .box-content .card-link {
+  text-align: center;
+  color: #00BCD4;
+  font-size: 16px;
+  font-family: "Maven Pro", sans-serif;
+}

@@ -1,0 +1,9 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+# Remove .html extension from the url
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+
+# Error 404
+ErrorDocument 404 https://ismailza.github.io/404.html
