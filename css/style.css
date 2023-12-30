@@ -662,6 +662,7 @@ b, strong {
   .custom-btn {
     display: block;
     margin: 10px 0;
+    width: 100%;
   }
   .owl-theme .owl-nav {
     display: none;
