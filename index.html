@@ -73,13 +73,26 @@
             <p>As a dedicated and motivated Software Engineering and Computer Systems Integration student, I am passionate about utilizing my technical knowledge and problem-solving skills to develop innovative software solutions. With a solid foundation in software engineering principles and hands-on experience in various programming languages and technologies, I am eager to contribute to a dynamic and collaborative team.</p>
             <p>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</p>
             <div class="custom-btn-group mt-4">
-              <a href="#" class="btn mr-lg-2 custom-btn resume-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+              <button class="btn mr-lg-2 custom-btn resume-btn" data-bs-toggle="modal" data-bs-target="#resumeLanguageModal"><i class='uil uil-file-alt'></i> Download Resume</button>
               <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact me</a>
             </div>
           </div>
         </div>
+        <div class="modal fade" id="resumeLanguageModal" tabindex="-1" aria-labelledby="resumeLanguageModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="resumeLanguageModalLabel">Choose your language</h5>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <button class="btn mr-lg-2 custom-btn resume-btn-en">English</button>
+                <button class="btn mr-lg-2 custom-btn resume-btn-fr">Frensh</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-5 col-md-12 col-12 uil-vertical-align-center" data-aos="fade-down">
-          <div class="about-image svg text-center" data-aos="fade-down-right">
+          <div class="about-image svg text-center">
             <img src="images/profile/photo.png" alt="profile image" class="img-fluid rounded-circle">
           </div>
           <div class="social-links mt-3 text-center">

@@ -2,7 +2,17 @@
 AOS.init();
 
 $('.resume-btn').click(function () {
+  $('#resumeLanguageModal').modal('show');
+});
+
+$('.resume-btn-fr').click(function () {
+  window.open('docs/Ismail ZAHIR - fr.pdf','_blank');
+  $('#resumeLanguageModal').modal('hide');
+});
+
+$('.resume-btn-en').click(function () {
   window.open('docs/Ismail ZAHIR - en.pdf','_blank');
+  $('#resumeLanguageModal').modal('hide');
 });
 
 const root = document.documentElement;
