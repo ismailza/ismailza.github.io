@@ -316,6 +316,9 @@ b, strong {
 .dark-mode .owl-carousel button.owl-dot {
   color: #ffffff;
 }
+.dark-mode p, .dark-mode ul li {
+  color: rgba(255, 255, 255, 0.8);
+}
 .timeline-wrapper {
   position: relative;
   padding: 22px 0;
