@@ -465,6 +465,10 @@ b, strong {
   width: 360px;
   height: 360px;
 }
+.about-image2 img {
+  width: 360px;
+  height: auto;
+}
 .about-text p {
   text-align: justify;
 }
@@ -610,6 +614,10 @@ b, strong {
     width: 300px;
     height: 300px;
   }
+  .about-image2 img {
+    width: 300px;
+    height: auto;
+  }
   .mobile-mt-2,
   .contact-form {
     margin-top: 2em;
@@ -691,6 +699,10 @@ b, strong {
   .about-image img {
     width: 220px;
     height: 220px;
+  }
+  .about-image2 img {
+    width: 220px;
+    height: auto;
   }
   .full-screen {
     padding: 1rem 0;
